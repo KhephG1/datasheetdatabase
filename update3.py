@@ -138,7 +138,7 @@ def handle_missing_files(missing_files, destination_folder):
 
     save_to_main_db = messagebox.askyesno(
         "Save to Main Database", 
-        "Do you want to save the downloaded datasheets to the main database?"
+        "When processing missing datasheets, should they be saved to the main database?"
     )
 
     def process_file(event, missing_item):
